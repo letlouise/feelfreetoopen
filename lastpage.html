@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Teacher's Day Rozsa!</title>
+    <link rel="stylesheet" href="css/flower.css"/>
+    <link rel="stylesheet" href="css/lastpage.css"/>
+  </head>
+  <body>
+    <div id="thankyou"><b>Happy Teacher's Day!!</b></div>
+    <div class="flower">
+      <div class="f-wrapper">
+        <div class="flower__line"></div>
+        <div class="f">
+          <div class="flower__leaf flower__leaf--1"></div>
+          <div class="flower__leaf flower__leaf--2"></div>
+          <div class="flower__leaf flower__leaf--3"></div>
+          <div class="flower__leaf flower__leaf--4"></div>
+          <div class="flower__leaf flower__leaf--5"></div>
+          <div class="flower__leaf flower__leaf--6"></div>
+          <div class="flower__leaf flower__leaf--7"></div>
+          <div
+            class="flower__leaf flower__leaf--8 flower__fall-down--yellow"
+          ></div>
+        </div>
+      </div>
+
+      <div class="f-wrapper f-wrapper--2">
+        <div class="flower__line"></div>
+        <div class="f">
+          <div class="flower__leaf flower__leaf--1"></div>
+          <div class="flower__leaf flower__leaf--2"></div>
+          <div class="flower__leaf flower__leaf--3"></div>
+          <div class="flower__leaf flower__leaf--4"></div>
+          <div class="flower__leaf flower__leaf--5"></div>
+          <div class="flower__leaf flower__leaf--6"></div>
+          <div class="flower__leaf flower__leaf--7"></div>
+          <div
+            class="flower__leaf flower__leaf--8 flower__fall-down--pink"
+          ></div>
+        </div>
+      </div>
+
+      <div class="f-wrapper f-wrapper--3">
+        <div class="flower__line"></div>
+        <div class="f">
+          <div class="flower__leaf flower__leaf--1"></div>
+          <div class="flower__leaf flower__leaf--2"></div>
+          <div class="flower__leaf flower__leaf--3"></div>
+          <div class="flower__leaf flower__leaf--4"></div>
+          <div class="flower__leaf flower__leaf--5"></div>
+          <div class="flower__leaf flower__leaf--6"></div>
+          <div class="flower__leaf flower__leaf--7"></div>
+          <div
+            class="flower__leaf flower__leaf--8 flower__fall-down--purple"
+          ></div>
+        </div>
+      </div>
+      <div class="flower__glass"></div>
+    </div>
+  </body>
+
+  <button class="button" onclick="generateReceipt()">View Letter</button>
+<div id="receipt"></div>
+<script>
+  function generateReceipt() {
+    const receiptContent = `
+      <h2>Kamusta Rozsa?</h2>
+      <br>
+      <p>I just really wanted to greet you....<br>
+      Happy Teacher's Day!❤️<br></p>
+      <br>
+      <p>I know life didn’t go exactly the way you hoped, 
+        and you had to pause your studies for now. But 
+        please don’t forget, that doesn’t make your dream 
+        any less special. Even if you’re not in a classroom 
+        yet, ik u already have the heart of a teacher in a 
+        way you care and motivated people esp. me</p>
+      <br>
+      <p>I believe one day mararating mo rin ang pangarap 
+        mo. And until that day comes, I’ll always be here, 
+        cheering for you and believing in you.🤍</p>
+      <br>
+    `;
+    document.getElementById('receipt').innerHTML = receiptContent;
+  }
+</script>
+</html>
